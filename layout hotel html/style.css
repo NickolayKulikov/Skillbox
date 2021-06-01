@@ -19,6 +19,7 @@ body {
 .section-heading {
   margin-left: 40px;
   font-size: 40px;
+  font-weight: 400;
   line-height: 40px;
   color: #333333;
 }
@@ -61,6 +62,7 @@ ul {
 
 .header-tel {
   margin-left: 30px;
+  color: #666666;
 }
 
 .personal-area {
@@ -70,6 +72,7 @@ ul {
 }
 
 .personal-area-arrow {
+  margin-right: 5px;
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -78,7 +81,7 @@ ul {
   background-repeat: no-repeat;
   background-color: transparent;
   background-position: center left;
-  transform: translateY(-4px);
+  transform: translateY(-5px);
 }
 
 .personal-area-link {
@@ -99,6 +102,7 @@ ul {
   display: flex;
   align-items: center;
   border-right: 1px solid #E1E1E1;
+  color: #666666;
 }
 
 .nav-link:not(:last-child) {
@@ -125,6 +129,7 @@ ul {
 
 .special-card {
   width: 573px;
+  border-radius: 15px;
 }
 
 .section-special-maldiv {
@@ -138,8 +143,9 @@ ul {
 
 .special-offer {
   margin: 0;
+  margin-left: 40px;
+  margin-bottom: 15px;
   padding-top: 40px;
-  padding-left: 40px;
   width: 299px;
   font-weight: 700;
   font-size: 40px;
@@ -148,18 +154,22 @@ ul {
 }
 
 .special-offer-price {
-  padding-left: 40px;
+  margin-top: 0;
+  margin-bottom: 47px;
+  margin-left: 40px;
   font-size: 20px;
   font-weight: 400;
   line-height: 1;
+  opacity: 0.8;
   color: #FFF;
 }
 
 .luxury {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+  margin-left: 40px;
   width: 299px;
   padding-top: 211px;
-  padding-left: 40px;
   font-weight: 700;
   font-size: 60px;
   line-height: 60px;
@@ -167,11 +177,13 @@ ul {
 }
 
 .luxury-price {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 47px;
   padding-left: 40px;
   font-size: 30px;
   font-weight: 400;
   line-height: 1;
+  opacity: 0.8;
   color: #FFF;
 }
 
@@ -194,6 +206,7 @@ ul {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center right;
+  transform: translateY(-1px);
 }
 
 .section-special-krit {
@@ -216,6 +229,7 @@ ul {
 .about-us-heading{
   margin-left: 40px;
   font-size: 40px;
+  font-weight: 400;
   line-height: 1;
   color: #333333;
 }
@@ -258,7 +272,7 @@ ul {
   background-image: url('img/Rectangle\ 2.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  transform: translateY(12px);
+  transform: translateY(10.5px);
 }
 
 .services-link {
@@ -271,8 +285,10 @@ ul {
 .services-description {
   margin-top: 0;
   margin-left: 45px;
+  width: 410px;
   font-size: 16px;
   line-height: 32px;
+  color: #000;
 }
 
 /* Advantages */
@@ -294,12 +310,11 @@ ul {
 .advantages-icon {
   margin-top: 40px;
   margin-left: 45px;
+  margin-bottom: 8px;
 }
 
 .advantages-description {
-  margin-left: 45px;
-  margin-bottom: 40px;
-  width: 188px;
+  margin: 0 42px 10px 44px;
   font-size: 16px;
   line-height: 32px;
   color: #000;
@@ -324,6 +339,10 @@ ul {
   margin-right: 23px;
 }
 
+.placement-item-img {
+  border-radius: 15px 15px 0 0;
+}
+
 .price-and-rating {
   display: flex;
   justify-content: space-between;
@@ -335,6 +354,7 @@ ul {
   margin-left: 45px;
   font-size: 16px;
   line-height: 1;
+  color: #999999;;
 }
 
 .rating {
@@ -346,14 +366,11 @@ ul {
   font-size: 20px;
   font-weight: 700;
   line-height: 1;
-}
-
-.small-text {
-  color: #999999
+  color: #000;
 }
 
 .hotel-name {
-  margin: 16px 0 16px 45px;
+  margin: 0 0 16px 45px;
   font-size: 16px;
   line-height: 1;
 }
@@ -363,6 +380,7 @@ ul {
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 1;
+  color: #999999;;
 }
 
 .placement-button {
@@ -377,11 +395,13 @@ ul {
   background-image: url('img/41.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
+  border-radius: 15px;
   color: #FFF;
 }
 
 .placement-more-link {
   margin-bottom: 27px;
+  display: inline-block;
   font-size: 20px;
   font-weight: 500;
   line-height: 40px;
@@ -389,11 +409,12 @@ ul {
 
 .placement-more-img {
   margin-left: 5px;
+  display: inline-block;
   width: 18px;
   height: 18px;
   background-image: url('img/Rectangle\ 2\ white.svg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  transform: translateY(-38px);
+  transform: translateY(3px);
 }
